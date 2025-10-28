@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Registration</title>
+  <link rel="stylesheet" href="signin.css">
+</head>
+<body>
+  <div class="signin-bg animated-bg">
+    <div class="centered-form">
+      <h2>Registration</h2>
+      <form id="registrationForm">
+        <label>Name:</label>
+        <input type="text" required autocomplete="off"><br>
+        <label>Phone Number:</label>
+        <input type="tel" required autocomplete="off"><br>
+        <label>Email ID:</label>
+        <input type="email" required autocomplete="off"><br>
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="Male" required> Male
+        <input type="radio" name="gender" value="Female" required> Female
+        <input type="radio" name="gender" value="Other" required> Other
+        <br><br>
+        <button type="submit">Submit</button>
+      </form>
+      <div id="thanksMessage" style="display:none;">Your Response has been recorded.<br>Thank you!</div>
+    </div>
+  </div>
+  <script src="signin.js"></script>
+</body>
+</html>
